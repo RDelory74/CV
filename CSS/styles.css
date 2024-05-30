@@ -49,10 +49,7 @@ h2.headline{
 
 }    
 h3.titre{
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
     font-size: 30px;
     font-family: "Alegrya Sans", sans-serif;
     color: #ffffff;
@@ -78,7 +75,6 @@ h3.titre{
     color:#ffffff;
 
 }
-<<<<<<< HEAD
 
 /* pictures asset */
 .id_portrait{
@@ -111,12 +107,11 @@ h3.titre{
     text-decoration: none;
 }
 
-=======
+
 /* pictures asset */
 .id_portrait{
     clip-path:ellipse(37% 50%);
 }
->>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
 
 /* link */
 
