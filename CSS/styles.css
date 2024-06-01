@@ -79,14 +79,6 @@ h3.titre{
 }
 
 
-/* pictures asset */
-.id_portrait{
-    clip-path:ellipse(37% 50%); 
-}
-
-
-
-
 .btn{
     font-size: medium;
     text-decoration: none;
