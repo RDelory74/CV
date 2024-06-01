@@ -1,6 +1,6 @@
 /* background global */
 body{
-    background-color: #e7d9b4;
+    background-color: #21675A;
 }
 
 
@@ -83,20 +83,15 @@ h3.titre{
 .id_portrait{
     clip-path:ellipse(37% 50%); 
 }
-.zoom img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.zoom :hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
+
+
+
+
 .btn{
+    font-size: medium;
     text-decoration: none;
     border-radius: 10px;
-    background: #78a890be;
+    background: #21675A;
     color:#ffffff;
     padding: 8px;
     border: 1px solid;
@@ -107,7 +102,13 @@ h3.titre{
     justify-content: center;
 }
 .navbar{
+    background-color: #4b857a;
     text-decoration: none;
+    padding: 2%;
+    border-radius: 20px;
+}
+.navbar:hover{
+    color: #21675A;
 }
 
 
@@ -130,7 +131,8 @@ a{
     padding: 25px;
     margin: 20px;
     border-radius: 56px;
-    background-color:#78a890be;
+    background-color:#4b857a;
+    text-align: justify;
 }
 .bckrectinfo{
     padding: 25px;
@@ -148,6 +150,9 @@ a{
     justify-content: flex-start;
 }
 
+.bckrect:hover{
+    background-color: #1f574d;
+}
 
 .center{
     width: 100%;
