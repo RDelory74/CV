@@ -4,13 +4,13 @@ body{
 }
 
 
-/* index css */
+
 div#content div{
     display: inline-block;
     width: 48%;
 }
 
-/*index/infoband position */
+
 .info_band{
     font-size: 20px;
     font-family: "Alegrya Sans", sans-serif;
@@ -27,6 +27,7 @@ p.textme{
     align-items: center;
     justify-content: center;
     color:#ffffff;
+ 
 }
 
 p.textmec{
@@ -75,9 +76,14 @@ h3.titre{
     align-items: center;
     justify-content: center;
     color:#ffffff;
+    text-decoration: none;
 
 }
+.btnfoot{
+ 
 
+
+}
 
 .btn{
     font-size: medium;
