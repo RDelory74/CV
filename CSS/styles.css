@@ -310,11 +310,12 @@ div.contenth div.boxdroiteh{
     width: 100%;
 }
 /* Responsive */
-@media screen and (max-width: 1300px) {
- 
 
-}   
-
+@media screen and (max-width: 1100px) {
+    h1.headline{
+        font-size: 45px;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .contenth{
@@ -333,11 +334,6 @@ div.contenth div.boxdroiteh{
     }
  
 
-@media screen and (max-width: 1100px) {
-    h1.headline{
-        font-size: 45px;
-    }
-}
 
 @media screen and (max-width: 850px) {
     h1.headline{
