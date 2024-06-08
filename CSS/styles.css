@@ -79,11 +79,7 @@ h3.titre{
     text-decoration: none;
 
 }
-.btnfoot{
- 
 
-
-}
 
 .btn{
     font-size: medium;
@@ -259,24 +255,66 @@ form {
 
 
 
+
+.slider{
+
+    width: 100%;
+    
+    height: var(--height);
+    overflow: hidden;
+    mask-image: linear-gradient(
+    to right,   
+    transparent,
+       #255,
+       transparent 
+    );
+}
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width)* var(--quantity));
+    position: relative;
+}
+
+.slider .list .borderhobyprint{
+    border-radius: 28px;
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 15s linear infinite;
+    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1));
+}
+
+.slider .list .borderhobyprint .img{
+    width: 100%;
+}
+
+@keyframes autoRun{
+    from{
+        left:100%;
+    }to{
+        left: calc( var(--width) * -1);
+    }
+}
+
 /* boites */
-  div.contenth div{
-    display: inline-block;
-    width: 48%;
+.contenth {
+   
 }
 
 div.contenth div.boxgaucheh{
-    vertical-align:top;
+    DISPLAY: FLEX;
+    FLEX-DIRECTION: column;
+    TEXT-ALIGN: center;
+    overflow-x: hidden;
+ 
+  
 }
 div.contenth div.boxdroiteh{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-
-.borderhobyprint{
-    border-radius: 28px;
 }
 
 .centerhob{
