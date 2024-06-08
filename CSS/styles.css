@@ -109,6 +109,7 @@ h3.titre{
 /* pictures asset */
 .id_portrait{
     clip-path:ellipse(37% 50%);
+    
 }
 
 
@@ -127,6 +128,7 @@ a{
     border-radius: 56px;
     background-color:#4b857a;
     text-align: justify;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
 .bckrectinfo{
     padding: 25px;
@@ -265,7 +267,7 @@ form {
     mask-image: linear-gradient(
     to right,   
     transparent,
-       #255,
+       #255 10% 90%,
        transparent 
     );
 }
@@ -278,12 +280,14 @@ form {
 
 .slider .list .borderhobyprint{
     border-radius: 28px;
+    
     width: var(--width);
     height: var(--height);
     position: absolute;
     left: 100%;
-    animation: autoRun 15s linear infinite;
-    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1));
+    animation: autoRun 10s linear infinite;
+    transition: filter 0.5s;
+    animation-delay: calc( (var(--time) / var(--quantity)) * (var(--position) - 1));
 }
 
 .slider .list .borderhobyprint .img{
@@ -296,6 +300,14 @@ form {
     }to{
         left: calc( var(--width) * -1);
     }
+}
+
+.slider:hover .borderhobyprint{
+    animation-play-state: paused!important;
+    filter: grayscale(1);
+}
+.slider .borderhobyprint:hover{
+    filter: grayscale(0);
 }
 
 /* boites */
@@ -361,15 +373,12 @@ div.contenth div.boxdroiteh{
         flex-direction: column;
         justify-content: center;
     }
-    .contenth img:nth-of-type(2),.contenth img:nth-of-type(3){
-        display: none;
-    }
-    .mobilemed iframe:nth-of-type(2),.mobilemed iframe:nth-last-of-type(3) {
-        display: none;
-    }
+ 
+  
     .info_band{
         font-size: 15px;
     }
+}
  
 
 
@@ -392,9 +401,7 @@ div.contenth div.boxdroiteh{
         display: none;
     }
     
-    .mobilemed iframe{
-        width: 100%;
-    }
+ 
     .info_band{
         font-size: 10px;
     }
@@ -404,17 +411,5 @@ div.contenth div.boxdroiteh{
     }
 }     
 
-@media screen and (max-width: 500px) {
-    .infomodbil p:nth-of-type(1),.infomodbil p:nth-of-type(3){
-        display: none;
-    }
 
-} 
 
-@media screen and (max-width: 400px) {
-    .contenth img{
-        display: none;
-    }
-
-}
-}
