@@ -109,9 +109,13 @@ h3.titre{
 /* pictures asset */
 .id_portrait{
     clip-path:ellipse(37% 50%);
-    
-}
 
+}
+.logometier {
+    border-radius: 5%;
+    width: 10%;
+    margin-left: 45%;
+}
 
 /* link */
 
@@ -280,7 +284,6 @@ form {
 
 .slider .list .borderhobyprint{
     border-radius: 28px;
-    
     width: var(--width);
     height: var(--height);
     position: absolute;
