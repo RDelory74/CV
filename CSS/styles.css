@@ -5,10 +5,7 @@ body{
 
 
 
-div#content div{
-    display: inline-block;
-    width: 48%;
-}
+
 
 
 .info_band{
@@ -145,11 +142,7 @@ a{
     background-color:rgba(217, 217, 217, 0.10) ;
 }
 
-#content{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
+
 
 .bckrect:hover{
     background-color: #1f574d;
@@ -315,9 +308,7 @@ form {
 }
 
 /* boites */
-.contenth {
-   
-}
+
 
 div.contenth div.boxgaucheh{
     DISPLAY: FLEX;
