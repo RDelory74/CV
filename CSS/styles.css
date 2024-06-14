@@ -214,7 +214,7 @@ form {
        color:#21675A;
   
     /* Taille uniforme pour des champs */
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
   
     /* On utilise la même bordure que pour le formulaire */
@@ -243,7 +243,8 @@ form {
   
   .button {
     /* On aligne les boutons avec les champs texte. */
-    padding-left: 90px; /* La même taille que les libellés */
+     /* La même taille que les libellés */
+     border-radius: 20%;
   }
   
   button {
