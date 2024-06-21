@@ -109,8 +109,8 @@ h3.titre{
 .logometier {
     border-radius: 5%;
     margin-top: 10px;
-    margin-left: 35%;
-    width: 30%
+    margin-left: 40%;
+    width: 20%
     
 }
 
@@ -147,6 +147,9 @@ a{
     background-color:rgba(217, 217, 217, 0.10) ;
 }
 
+.contactbox{
+    display: flex;
+}
 
 
 .bckrect:hover{
@@ -175,7 +178,7 @@ a{
 /* formulaire section */
 form {
     /* Pour centrer le formulaire sur la page */
-    margin: 0 auto;
+    
     width: 400px;
   
     /* Encadré pour voir les limites du formulaire */
