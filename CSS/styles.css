@@ -1,59 +1,55 @@
 /* background global */
-body{
+body {
     background-color: #21675A;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
 
-.info_band{
+.info_band {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 
 /* font and bckd */
-
-p.textme{
+p.textme {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
     display: flex;
     justify-content: center;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
- 
-}
 
-p.textmec{
+}
+p.textmec {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
-    color:#ffffff;
+    color: #ffffff;
 }
-
-h1.headline{
+h1.headline {
     font-size: 100px;
     font-family: 'Cascadia Code', sans-serif;
     color: #ffffff;
 
 }
-h2.headline{
+h2.headline {
     font-weight: lighter;
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
     color: #ffffff;
 
-}    
-h3.titre{
+}
+h3.titre {
 
     text-align: center;
-
     font-size: 30px;
     font-family: 'Cascadia Code', sans-serif;
     color: #ffffff;
 }
-
-
-.date{
+.date {
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Cascadia Code', sans-serif;
@@ -62,107 +58,134 @@ h3.titre{
     justify-content: center;
     color: #ffffff;
 }
+.ssTitrePassion{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cascadia Code', sans-serif;
+    color: #ffffff;
 
-.textme{
+}
+.titrePassion{
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
-    color:#ffffff;
+    color: #ffffff;
     text-decoration: none;
 
 }
 
-
-
-.btn{
+.textme {
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn {
     font-size: medium;
     text-decoration: none;
     border-radius: 10px;
     background: #21675A;
-    color:#ffffff;
+    color: #ffffff;
     padding: 8px;
     border: 1px solid;
-
 }
-.btnbapage{
+.btnbapage {
     display: flex;
     justify-content: center;
 }
-.navbar{
+.navbar {
     background-color: #4b857a;
     text-decoration: none;
     padding: 2%;
     border-radius: 20px;
 }
-.navbar:hover{
+.navbar:hover {
     color: #21675A;
 }
-
-
 /* pictures asset */
-.id_portrait{
-    clip-path:ellipse(37% 50%);
+.id_portrait {
+    clip-path: ellipse(37% 50%);
 
+}
+.logoWork{
+    width: 20%;
+    border-radius: 5%;
 }
 .logometier {
     border-radius: 5%;
     margin-top: 10px;
     margin-left: 40%;
     width: 20%
-    
 }
 
-.logomtn{
+.logomtn {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+.contactImg{
+    border-radius: 5%;
+}
 
 /* link */
 
-a{
+a {
     font-size: 30px;
     font-family: 'Cascadia Code', sans-serif;
     color: #ffffff;
 }
 
 /* bakcground and section */
-.bckrect{
+.blocMetier{
+    
+}
+.bckinfoleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bckrect {
+
     padding: 25px;
     margin: 20px;
     border-radius: 56px;
-    background-color:#4b857a;
+    background-color: #4b857a;
     text-align: justify;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
-.bckrectinfo{
+
+.bckrectinfo {
     padding: 25px;
     margin: 20px;
     border-radius: 56px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color:rgba(217, 217, 217, 0.10) ;
+    background-color: rgba(217, 217, 217, 0.10);
 }
 
-.contactbox{
+.contactbox {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
-.bckrect:hover{
+.bckrect:hover {
     background-color: #1f574d;
 }
 
-.center{
+.center {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -178,114 +201,112 @@ a{
 /* formulaire section */
 form {
     /* Pour centrer le formulaire sur la page */
-    
     width: 400px;
-  
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
     border-radius: 56px;
-    background-color:rgba(217, 217, 217, 0.10);
-  }
-  .font{
+    background-color: rgba(217, 217, 217, 0.10);
+}
+
+.font {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
     display: flex;
-    color:#ffffff;
+    color: #ffffff;
     padding: 10px;
-  }
-  div + div {
-    margin-top: 1em;
-  }
-  
-  label {
+}
+
+label {
     /* On s'assure que tous les libellés ont la même taille
        et sont correctement alignés. */
     display: inline-block;
     width: 90px;
     text-align: left
-  }
-  labelselect {
+}
+
+labelselect {
     font-family: sans-serif;
     font-size: 1rem;
     padding-right: 10px;
-  }
-  select {
+}
+
+select {
     font-size: 0.9rem;
     padding: 2px 5px;
-  }
-  input,
-  textarea {
+}
+
+input,
+textarea {
     /* On s'assure que les champs texte ont la même police
        Par défaut, les zones de texte ont une police à chasse
        fixe. */
-       font-family: 'Cascadia Code', sans-serif;
-       color:#21675A;
-  
+    font-family: 'Cascadia Code', sans-serif;
+    color: #21675A;
+
     /* Taille uniforme pour des champs */
     width: 100%;
     box-sizing: border-box;
-  
+
     /* On utilise la même bordure que pour le formulaire */
     border: 1px solid #999;
     border-radius: 10px;
-  }
-  
-  input:focus,
-  textarea:focus {
+}
+
+input:focus,
+textarea:focus {
     /* On rajoute une mise en avant pour les éléments avec
        le focus. */
     border-color: #000;
-  }
-  
-  textarea {
+}
+
+textarea {
     /* On aligne les textes sur plusieurs lignes avec leur
        libellé. */
     vertical-align: top;
-  
+
     /* On fournit un peut d'espace pour saisir du texte. */
     height: 5em;
-  
+
     /* On permet de redimensionner verticalement. */
     resize: vertical;
-  }
-  
-  .button {
+}
+
+.button {
     /* On aligne les boutons avec les champs texte. */
-     /* La même taille que les libellés */
-     border-radius: 20%;
-  }
-  
-  button {
+    /* La même taille que les libellés */
+    border-radius: 20%;
+}
+
+button {
     /* Une marge supplémentaire représentant approximativement
        le même espace qu'entre les libellés et les champs. */
     margin-left: 0.5em;
     margin-bottom: 3em;
-  }
+}
 
 
 
 
-.slider{
+.slider {
 
     width: 100%;
-    
+
     height: var(--height);
     overflow: hidden;
-    mask-image: linear-gradient(
-    to right,   
-    transparent,
-       #255 10% 90%,
-       transparent 
-    );
+    mask-image: linear-gradient(to right,
+            transparent,
+            #255 10% 90%,
+            transparent);
 }
-.slider .list{
+
+.slider .list {
     display: flex;
     width: 100%;
     min-width: calc(var(--width)* var(--quantity));
     position: relative;
 }
 
-.slider .list .borderhobyprint{
+.slider .list .borderhobyprint {
     border-radius: 28px;
     width: var(--width);
     height: var(--height);
@@ -293,109 +314,122 @@ form {
     left: 100%;
     animation: autoRun 10s linear infinite;
     transition: filter 0.5s;
-    animation-delay: calc( (var(--time) / var(--quantity)) * (var(--position) - 1));
+    animation-delay: calc((var(--time) / var(--quantity)) * (var(--position) - 1));
 }
 
-.slider .list .borderhobyprint .img{
+.slider .list .borderhobyprint .img {
     width: 100%;
 }
 
-@keyframes autoRun{
-    from{
-        left:100%;
-    }to{
-        left: calc( var(--width) * -1);
+@keyframes autoRun {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: calc(var(--width) * -1);
     }
 }
 
-.slider:hover .borderhobyprint{
-    animation-play-state: paused!important;
+.slider:hover .borderhobyprint {
+    animation-play-state: paused !important;
     filter: grayscale(1);
 }
-.slider .borderhobyprint:hover{
+
+.slider .borderhobyprint:hover {
     filter: grayscale(0);
 }
 
 /* boites */
 
 
-div.contenth div.boxgaucheh{
+div.contenth div.boxgaucheh {
     DISPLAY: FLEX;
     FLEX-DIRECTION: column;
     TEXT-ALIGN: center;
     overflow-x: hidden;
- 
-  
+
+
 }
-div.contenth div.boxdroiteh{
+
+div.contenth div.boxdroiteh {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.centerhob{
+.centerhob {
     vertical-align: top;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.infomodbil{
+.infomodbil {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.borderprofile{
+
+.borderprofile {
     border-radius: 239px;
     width: 100px;
     height: 100px;
 }
 
-.borderlogo{
+.borderlogo {
     width: 50px;
     height: 50px;
 }
-.inline{
+
+.inline {
     display: inline-block;
 }
 
-.linelong{
+.linelong {
     width: 100%;
 }
+
 /* Responsive */
 
-@media screen and (max-width: 1100px) {
-    h1.headline{
+@media screen and (max-width: 1600px) {
+.infomodbil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 1300px) {
+    h1.headline {
         font-size: 45px;
     }
-    .infomodbil{
+
+    .infomodbil {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 }
-
 @media screen and (max-width: 1000px) {
-    .contenth{
+    .contenth {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
- 
-  
-    .info_band{
+
+
+    .info_band {
         font-size: 20px;
     }
 }
- 
-
-
 @media screen and (max-width: 850px) {
-    h1.headline{
+    h1.headline {
         font-size: 35px;
     }
-    .bckrectinfo{
+
+    .bckrectinfo {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -404,26 +438,23 @@ div.contenth div.boxdroiteh{
     }
 
 }
-
-
-
-
 @media screen and (max-width: 700px) {
 
-    .info_band{
+    .info_band {
         font-size: 15px;
     }
-    .id_portrait{
+
+    .id_portrait {
         width: 100%;
         height: 100%;
     }
-    .logomtn :nth-child(1), .logomtn :nth-child(5){
-        display:none;
+
+    .logomtn :nth-child(1),
+    .logomtn :nth-child(5) {
+        display: none;
     }
-    .navbar{
+
+    .navbar {
         font-size: 100%;
     }
-}     
-
-
-
+}
