@@ -49,6 +49,7 @@ h3.titre {
     font-family: 'Cascadia Code', sans-serif;
     color: #ffffff;
 }
+
 .date {
     font-size: 20px;
     font-weight: lighter;
@@ -76,7 +77,7 @@ h3.titre {
 }
 
 .textme {
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Cascadia Code', sans-serif;
     display: flex;
     justify-content: center;
@@ -114,9 +115,13 @@ h3.titre {
     width: 20%;
     border-radius: 5%;
 }
+.logoWork2{
+    width: 40%;
+    border-radius: 5%;
+}
 .logometier {
     border-radius: 5%;
-    margin-top: 10px;
+    margin-top: 5%;
     margin-left: 40%;
     width: 20%
 }
@@ -140,7 +145,10 @@ a {
 
 /* bakcground and section */
 .blocMetier{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
 }
 .bckinfoleft{
     display: flex;
