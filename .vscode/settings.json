@@ -1,3 +1,12 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.suggest.insertMode": "replace",
+    "files.defaultLanguage": "markdown",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
 }
