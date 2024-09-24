@@ -149,7 +149,10 @@ h4{
     justify-content: space-around;
 }
 .contactImg{
+    margin: 10px;
     border-radius: 5%;
+    width: 30%;
+    height: 30%;
 }
 
 /* link */
@@ -241,15 +244,23 @@ form {
     border-radius: 56px;
     background-color: rgba(217, 217, 217, 0.10);
 }
-
 .font {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
-    display: flex;
     color: #ffffff;
     padding: 10px;
 }
+#pet-select{
+    margin-left: 0.5em;
+    margin-bottom: 3em;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #21675A;
+    color: #ffffff;
+    border: 1px solid;
 
+}
 label {
     /* On s'assure que tous les libellés ont la même taille
        et sont correctement alignés. */
@@ -271,51 +282,43 @@ select {
 
 input,
 textarea {
-    /* On s'assure que les champs texte ont la même police
-       Par défaut, les zones de texte ont une police à chasse
-       fixe. */
     font-family: 'Cascadia Code', sans-serif;
     color: #21675A;
-
-    /* Taille uniforme pour des champs */
     width: 100%;
     box-sizing: border-box;
-
-    /* On utilise la même bordure que pour le formulaire */
     border: 1px solid #999;
     border-radius: 10px;
 }
 
 input:focus,
 textarea:focus {
-    /* On rajoute une mise en avant pour les éléments avec
-       le focus. */
     border-color: #000;
 }
 
 textarea {
-    /* On aligne les textes sur plusieurs lignes avec leur
-       libellé. */
     vertical-align: top;
-
-    /* On fournit un peut d'espace pour saisir du texte. */
     height: 5em;
-
-    /* On permet de redimensionner verticalement. */
     resize: vertical;
 }
 
 .button {
-    /* On aligne les boutons avec les champs texte. */
-    /* La même taille que les libellés */
+    padding: 5%;
     border-radius: 20%;
+    display:flex;
+    flex-direction: column;
 }
 
 button {
-    /* Une marge supplémentaire représentant approximativement
-       le même espace qu'entre les libellés et les champs. */
+   
     margin-left: 0.5em;
     margin-bottom: 3em;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #21675A;
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid;
 }
 
 
@@ -440,6 +443,11 @@ div.contenth div.boxdroiteh {
     }
 }
 @media screen and (max-width: 1300px) {
+    .contactbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
     .infomodbil {
