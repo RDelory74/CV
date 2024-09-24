@@ -22,6 +22,12 @@ p.textme {
     justify-content: center;
     color: #ffffff;
     text-align: center;
+    
+}
+p.textmetier{
+    font-family: 'Cascadia Code', sans-serif;
+    color: #ffffff;
+    text-align: center;
 
 }
 p.textmec {
@@ -177,7 +183,7 @@ a {
 }
 .bckrect {
 
-    padding: 25px;
+    padding: 45px;
     margin: 20px;
     border-radius: 56px;
     background-color: #4b857a;
