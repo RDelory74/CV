@@ -142,7 +142,13 @@ h4{
     margin-left: 40%;
     width: 20%
 }
-
+.logoformation{
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 20%;
+   
+}
 .logomtn {
     display: flex;
     flex-direction: row;
