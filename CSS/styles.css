@@ -16,6 +16,12 @@ body {
 
 /* font and bckd */
 
+li{
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    color: #ffffff;
+}
+
 .textmeli{
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
