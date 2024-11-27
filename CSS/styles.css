@@ -15,6 +15,14 @@ body {
 
 
 /* font and bckd */
+
+.textmeli{
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    list-style:square;
+}
 p.textme {
     font-size: 20px;
     font-family: 'Cascadia Code', sans-serif;
